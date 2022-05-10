@@ -1,0 +1,68 @@
+/* Whole website */
+
+nav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body {
+    margin: 0;
+}
+.link {
+    color: white;
+    text-decoration: none;
+    padding: 0 0.5rem;
+}
+.links {
+    padding: 1rem;
+}
+.navimg {
+    border-radius: 100%;
+    width: 3rem;
+    height: auto;
+}
+
+.link:hover {
+    background-color: white;
+    padding: 8px;
+    color: black;
+    border-radius: 20px;
+}
+
+
+/* Home page */
+.landingpage {
+    text-align: center;
+}
+.listlink {
+    color: black;
+}
+.wholelist{
+    padding-left: 32rem;
+    padding-top: 4rem;
+    width: 8rem;
+}
+.landingli {
+    width: 11rem;
+}
+.catimg {
+    float: right;
+    margin-right: 20rem;
+}
+
+/* Hobbies */
+
+
+
+
+
+
+/* Movies */
+
+
+
+
+
+
+/* Books */
