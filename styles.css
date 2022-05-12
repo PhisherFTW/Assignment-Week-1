@@ -40,7 +40,7 @@ body {
 }
 .wholelist{
     padding-left: 32rem;
-    padding-top: 4rem;
+    padding-top: 10rem;
     width: 8rem;
 }
 .landingli {
@@ -49,11 +49,45 @@ body {
 .catimg {
     float: right;
     margin-right: 20rem;
+    width: 38rem;
+    padding-top: 4rem;
 }
 
+
+
 /* Hobbies */
+.hobbiestitle {
+    text-align: center;
 
-
+}
+.hobbiesdiv {
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-auto-columns: 50% 50%;
+    grid-template-columns: repeat(2, auto);
+    gap: 12rem 5rem;
+    grid-template-rows: 200px 400px;
+}
+.center {
+    margin: 0 auto;
+}
+.fishingpic {
+    width: 10rem;
+    height: auto;
+}
+.csgo {
+    width: 20rem;
+    height: auto;
+}
+.bugbounty {
+    width: 15rem;
+    height: auto;
+}
+.bdot {
+    width: 23rem;
+    margin-left: 20rem;
+}
 
 
 
