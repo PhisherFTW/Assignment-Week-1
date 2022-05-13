@@ -8,6 +8,8 @@ nav {
 }
 body {
     margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
 }
 .link {
     color: white;
@@ -30,7 +32,9 @@ body {
     border-radius: 20px;
 }
 
-
+h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
 /* Home page */
 .landingpage {
     text-align: center;
@@ -58,7 +62,7 @@ body {
 /* Hobbies */
 .hobbiestitle {
     text-align: center;
-
+    margin: 0.2rem;
 }
 .hobbiesdiv {
     margin: 0 auto;
@@ -93,16 +97,15 @@ body {
 
 
 /* Movies */
+.moviestitle {
+    text-align: center;
+}
 .div1 {
     align-items: center;
-}
-.mdiv1 {
     display: flex;
     flex-direction: row;
-}
-.mdiv2 {
-    display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 1rem;
 }
 .wall-e {
     width: 20rem;
@@ -110,8 +113,39 @@ body {
 .avatar {
     width: 20rem;
 }
-
-
+.rdyplrone {
+    width: 20rem;
+}
+.deadpool {
+    width: 20rem;
+}
+.mazerunner {
+    width: 20rem;
+    height: 30rem;
+}
+.spans {
+    padding-left: 5rem;
+}
+@media (max-width:992px) {
+    .div1 {
+        display:flex;
+        flex-direction: column;
+    }
+}
 
 
 /* Books */
+.books1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.artofwar {
+    width: 30rem;
+}
+.rainbow6 {
+    width: 15rem;
+}
+.enders-game {
+
+}
