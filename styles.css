@@ -27,7 +27,7 @@ body {
 
 .link:hover {
     background-color: white;
-    padding: 8px;
+    padding: 8.5px;
     color: black;
     border-radius: 20px;
 }
@@ -92,14 +92,18 @@ h1 {
     width: 23rem;
     margin-left: 20rem;
 }
+.link2 {
+    text-decoration: none;
+    color: black;
+}
+.link2:hover {
+    color: #ff7235;
+}
 
 
 
 
 /* Movies */
-.moviestitle {
-    text-align: center;
-}
 .div1 {
     align-items: center;
     display: flex;
@@ -124,7 +128,9 @@ h1 {
     height: 30rem;
 }
 .spans {
-    padding-left: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 @media (max-width:992px) {
     .div1 {
@@ -141,11 +147,14 @@ h1 {
     justify-content: space-evenly;
 }
 .artofwar {
-    width: 30rem;
+    width: 15rem;
 }
 .rainbow6 {
     width: 15rem;
 }
 .enders-game {
-
+    width: 30rem;
+}
+.centered {
+    text-align: center;
 }
