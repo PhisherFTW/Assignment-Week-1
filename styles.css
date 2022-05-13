@@ -153,8 +153,17 @@ h1 {
     width: 15rem;
 }
 .enders-game {
-    width: 30rem;
+    width: 15rem;
 }
 .centered {
     text-align: center;
+}
+.background {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    /* height: 40rem; */
+    z-index: -1;
 }
